@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849B3D0C19054484008617E5 /* NSString+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 849B3D0A19054484008617E5 /* NSString+AESCrypt.h */; };
+		849B3D0D19054484008617E5 /* NSString+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B3D0B19054484008617E5 /* NSString+AESCrypt.m */; };
+		849B3D10190544B6008617E5 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 849B3D0E190544B6008617E5 /* NSData+AESCrypt.h */; };
+		849B3D11190544B6008617E5 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B3D0F190544B6008617E5 /* NSData+AESCrypt.m */; };
+		84A55B7619051C6500AE2614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A55B7519051C6500AE2614 /* Foundation.framework */; };
+		84A55B8119051C6500AE2614 /* CryptoNotes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A55B8019051C6500AE2614 /* CryptoNotes.mm */; };
+		84A55B8C19051D3E00AE2614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A55B8B19051D3E00AE2614 /* UIKit.framework */; };
+		84A55B8E19051D4A00AE2614 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A55B8D19051D4A00AE2614 /* libsubstrate.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849B3D4B19056897008617E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849B3D4719056896008617E5 /* CryptoNotesBundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 849B3D1F19056896008617E5;
+			remoteInfo = CryptoNotesBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849B3D0A19054484008617E5 /* NSString+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+AESCrypt.h"; path = "../NSString+AESCrypt.h"; sourceTree = "<group>"; };
+		849B3D0B19054484008617E5 /* NSString+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+AESCrypt.m"; path = "../NSString+AESCrypt.m"; sourceTree = "<group>"; };
+		849B3D0E190544B6008617E5 /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		849B3D0F190544B6008617E5 /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
+		849B3D4719056896008617E5 /* CryptoNotesBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoNotesBundle.xcodeproj; path = CryptoNotesBundle/CryptoNotesBundle.xcodeproj; sourceTree = "<group>"; };
+		84A55B7219051C6500AE2614 /* CryptoNotes.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CryptoNotes.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A55B7519051C6500AE2614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84A55B7A19051C6500AE2614 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		84A55B7B19051C6500AE2614 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		84A55B7D19051C6500AE2614 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		84A55B7E19051C6500AE2614 /* CryptoNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CryptoNotes-Prefix.pch"; sourceTree = "<group>"; };
+		84A55B7F19051C6500AE2614 /* CryptoNotes.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CryptoNotes.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		84A55B8019051C6500AE2614 /* CryptoNotes.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CryptoNotes.mm; sourceTree = "<group>"; };
+		84A55B8519051C6500AE2614 /* CryptoNotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CryptoNotes.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/CryptoNotes.plist; sourceTree = "<group>"; };
+		84A55B8B19051D3E00AE2614 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A55B8D19051D4A00AE2614 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A55B6E19051C6500AE2614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A55B8E19051D4A00AE2614 /* libsubstrate.dylib in Frameworks */,
+				84A55B8C19051D3E00AE2614 /* UIKit.framework in Frameworks */,
+				84A55B7619051C6500AE2614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849B3D4819056896008617E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D4C19056897008617E5 /* CryptoNotesBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A55B6719051C6500AE2614 = {
+			isa = PBXGroup;
+			children = (
+				849B3D4719056896008617E5 /* CryptoNotesBundle.xcodeproj */,
+				84A55B7719051C6500AE2614 /* CryptoNotes */,
+				84A55B7419051C6500AE2614 /* Frameworks */,
+				84A55B7319051C6500AE2614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A55B7319051C6500AE2614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B7219051C6500AE2614 /* CryptoNotes.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A55B7419051C6500AE2614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B8D19051D4A00AE2614 /* libsubstrate.dylib */,
+				84A55B8B19051D3E00AE2614 /* UIKit.framework */,
+				84A55B7519051C6500AE2614 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A55B7719051C6500AE2614 /* CryptoNotes */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D0A19054484008617E5 /* NSString+AESCrypt.h */,
+				849B3D0B19054484008617E5 /* NSString+AESCrypt.m */,
+				849B3D0E190544B6008617E5 /* NSData+AESCrypt.h */,
+				849B3D0F190544B6008617E5 /* NSData+AESCrypt.m */,
+				84A55B7F19051C6500AE2614 /* CryptoNotes.xm */,
+				84A55B8019051C6500AE2614 /* CryptoNotes.mm */,
+				84A55B7819051C6500AE2614 /* Package */,
+				84A55B7C19051C6500AE2614 /* Supporting Files */,
+			);
+			path = CryptoNotes;
+			sourceTree = "<group>";
+		};
+		84A55B7819051C6500AE2614 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B7919051C6500AE2614 /* DEBIAN */,
+				84A55B8219051C6500AE2614 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		84A55B7919051C6500AE2614 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B7A19051C6500AE2614 /* control.txt */,
+				84A55B7B19051C6500AE2614 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		84A55B7C19051C6500AE2614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B7D19051C6500AE2614 /* PackageVersion.plist */,
+				84A55B7E19051C6500AE2614 /* CryptoNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A55B8219051C6500AE2614 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B8319051C6500AE2614 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		84A55B8319051C6500AE2614 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B8419051C6500AE2614 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		84A55B8419051C6500AE2614 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				84A55B8519051C6500AE2614 /* CryptoNotes.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84A55B6F19051C6500AE2614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B3D10190544B6008617E5 /* NSData+AESCrypt.h in Headers */,
+				849B3D0C19054484008617E5 /* NSString+AESCrypt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84A55B7119051C6500AE2614 /* CryptoNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A55B8819051C6500AE2614 /* Build configuration list for PBXNativeTarget "CryptoNotes" */;
+			buildPhases = (
+				84A55B6C19051C6500AE2614 /* ShellScript */,
+				84A55B6D19051C6500AE2614 /* Sources */,
+				84A55B6E19051C6500AE2614 /* Frameworks */,
+				84A55B6F19051C6500AE2614 /* Headers */,
+				84A55B7019051C6500AE2614 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoNotes;
+			productName = CryptoNotes;
+			productReference = 84A55B7219051C6500AE2614 /* CryptoNotes.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A55B6819051C6500AE2614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 84A55B6B19051C6500AE2614 /* Build configuration list for PBXProject "CryptoNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A55B6719051C6500AE2614;
+			productRefGroup = 84A55B7319051C6500AE2614 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 849B3D4819056896008617E5 /* Products */;
+					ProjectRef = 849B3D4719056896008617E5 /* CryptoNotesBundle.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84A55B7119051C6500AE2614 /* CryptoNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		849B3D4C19056897008617E5 /* CryptoNotesBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoNotesBundle.bundle;
+			remoteRef = 849B3D4B19056897008617E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84A55B6C19051C6500AE2614 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		84A55B7019051C6500AE2614 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A55B6D19051C6500AE2614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B3D0D19054484008617E5 /* NSString+AESCrypt.m in Sources */,
+				849B3D11190544B6008617E5 /* NSData+AESCrypt.m in Sources */,
+				84A55B8119051C6500AE2614 /* CryptoNotes.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84A55B8619051C6500AE2614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		84A55B8719051C6500AE2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		84A55B8919051C6500AE2614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoNotes/CryptoNotes-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		84A55B8A19051C6500AE2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoNotes/CryptoNotes-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A55B6B19051C6500AE2614 /* Build configuration list for PBXProject "CryptoNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A55B8619051C6500AE2614 /* Debug */,
+				84A55B8719051C6500AE2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A55B8819051C6500AE2614 /* Build configuration list for PBXNativeTarget "CryptoNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A55B8919051C6500AE2614 /* Debug */,
+				84A55B8A19051C6500AE2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A55B6819051C6500AE2614 /* Project object */;
+}

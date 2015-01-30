@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849B3D2319056896008617E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849B3D2219056896008617E5 /* Foundation.framework */; };
+		849B3D2519056896008617E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849B3D2419056896008617E5 /* UIKit.framework */; };
+		849B3D2719056896008617E5 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849B3D2619056896008617E5 /* Preferences.framework */; };
+		849B3D3219056896008617E5 /* CryptoNotesBundleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B3D3119056896008617E5 /* CryptoNotesBundleController.m */; };
+		849B3D4F19056AB6008617E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849B3D4E19056AB6008617E5 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849B3D1F19056896008617E5 /* CryptoNotesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoNotesBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B3D2219056896008617E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		849B3D2419056896008617E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		849B3D2619056896008617E5 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		849B3D2B19056896008617E5 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		849B3D2C19056896008617E5 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		849B3D2E19056896008617E5 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		849B3D2F19056896008617E5 /* CryptoNotesBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoNotesBundle-Info.plist"; sourceTree = "<group>"; };
+		849B3D3019056896008617E5 /* CryptoNotesBundleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoNotesBundleController.h; sourceTree = "<group>"; };
+		849B3D3119056896008617E5 /* CryptoNotesBundleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoNotesBundleController.m; sourceTree = "<group>"; };
+		849B3D3619056896008617E5 /* CryptoNotesBundle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CryptoNotesBundle.plist; path = Package/Library/PreferenceLoader/Preferences/CryptoNotesBundle.plist; sourceTree = "<group>"; };
+		849B3D3919056896008617E5 /* CryptoNotesBundle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CryptoNotesBundle.plist; path = Package/Library/PreferenceBundles/CryptoNotesBundle.bundle/CryptoNotesBundle.plist; sourceTree = "<group>"; };
+		849B3D3A19056896008617E5 /* CryptoNotesBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CryptoNotesBundleIcon.png; path = Package/Library/PreferenceBundles/CryptoNotesBundle.bundle/CryptoNotesBundleIcon.png; sourceTree = "<group>"; };
+		849B3D3B19056896008617E5 /* CryptoNotesBundleIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CryptoNotesBundleIcon@2x.png"; path = "Package/Library/PreferenceBundles/CryptoNotesBundle.bundle/CryptoNotesBundleIcon@2x.png"; sourceTree = "<group>"; };
+		849B3D4019056896008617E5 /* ru.firemoon777.CryptoNotesBundle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru.firemoon777.CryptoNotesBundle.plist; path = Package/var/mobile/Library/Preferences/ru.firemoon777.CryptoNotesBundle.plist; sourceTree = "<group>"; };
+		849B3D4119056896008617E5 /* CryptoNotesBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CryptoNotesBundle-Prefix.pch"; sourceTree = "<group>"; };
+		849B3D4E19056AB6008617E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849B3D1B19056896008617E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B3D4F19056AB6008617E5 /* MessageUI.framework in Frameworks */,
+				849B3D2319056896008617E5 /* Foundation.framework in Frameworks */,
+				849B3D2719056896008617E5 /* Preferences.framework in Frameworks */,
+				849B3D2519056896008617E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849B3D1519056896008617E5 = {
+			isa = PBXGroup;
+			children = (
+				849B3D2819056896008617E5 /* CryptoNotesBundle */,
+				849B3D2119056896008617E5 /* Frameworks */,
+				849B3D2019056896008617E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849B3D2019056896008617E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D1F19056896008617E5 /* CryptoNotesBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849B3D2119056896008617E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D4E19056AB6008617E5 /* MessageUI.framework */,
+				849B3D2219056896008617E5 /* Foundation.framework */,
+				849B3D2419056896008617E5 /* UIKit.framework */,
+				849B3D2619056896008617E5 /* Preferences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849B3D2819056896008617E5 /* CryptoNotesBundle */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3019056896008617E5 /* CryptoNotesBundleController.h */,
+				849B3D3119056896008617E5 /* CryptoNotesBundleController.m */,
+				849B3D2919056896008617E5 /* Package */,
+				849B3D2D19056896008617E5 /* Supporting Files */,
+			);
+			path = CryptoNotesBundle;
+			sourceTree = "<group>";
+		};
+		849B3D2919056896008617E5 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D2A19056896008617E5 /* DEBIAN */,
+				849B3D3319056896008617E5 /* Library */,
+				849B3D3C19056896008617E5 /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		849B3D2A19056896008617E5 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D2B19056896008617E5 /* control.txt */,
+				849B3D2C19056896008617E5 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		849B3D2D19056896008617E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D2E19056896008617E5 /* PackageVersion.plist */,
+				849B3D2F19056896008617E5 /* CryptoNotesBundle-Info.plist */,
+				849B3D4119056896008617E5 /* CryptoNotesBundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849B3D3319056896008617E5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3419056896008617E5 /* PreferenceLoader */,
+				849B3D3719056896008617E5 /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		849B3D3419056896008617E5 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3519056896008617E5 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		849B3D3519056896008617E5 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3619056896008617E5 /* CryptoNotesBundle.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		849B3D3719056896008617E5 /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3819056896008617E5 /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		849B3D3819056896008617E5 /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3919056896008617E5 /* CryptoNotesBundle.plist */,
+				849B3D3A19056896008617E5 /* CryptoNotesBundleIcon.png */,
+				849B3D3B19056896008617E5 /* CryptoNotesBundleIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		849B3D3C19056896008617E5 /* var */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3D19056896008617E5 /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		849B3D3D19056896008617E5 /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3E19056896008617E5 /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		849B3D3E19056896008617E5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D3F19056896008617E5 /* Preferences */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		849B3D3F19056896008617E5 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				849B3D4019056896008617E5 /* ru.firemoon777.CryptoNotesBundle.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		849B3D1C19056896008617E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		849B3D1E19056896008617E5 /* CryptoNotesBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B3D4419056896008617E5 /* Build configuration list for PBXNativeTarget "CryptoNotesBundle" */;
+			buildPhases = (
+				849B3D1A19056896008617E5 /* Sources */,
+				849B3D1B19056896008617E5 /* Frameworks */,
+				849B3D1C19056896008617E5 /* Headers */,
+				849B3D1D19056896008617E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoNotesBundle;
+			productName = CryptoNotesBundle;
+			productReference = 849B3D1F19056896008617E5 /* CryptoNotesBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849B3D1619056896008617E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 849B3D1919056896008617E5 /* Build configuration list for PBXProject "CryptoNotesBundle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 849B3D1519056896008617E5;
+			productRefGroup = 849B3D2019056896008617E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849B3D1E19056896008617E5 /* CryptoNotesBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		849B3D1D19056896008617E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849B3D1A19056896008617E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B3D3219056896008617E5 /* CryptoNotesBundleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		849B3D4219056896008617E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		849B3D4319056896008617E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		849B3D4519056896008617E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoNotesBundle/CryptoNotesBundle-Prefix.pch";
+				INFOPLIST_FILE = "CryptoNotesBundle/CryptoNotesBundle-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		849B3D4619056896008617E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoNotesBundle/CryptoNotesBundle-Prefix.pch";
+				INFOPLIST_FILE = "CryptoNotesBundle/CryptoNotesBundle-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849B3D1919056896008617E5 /* Build configuration list for PBXProject "CryptoNotesBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B3D4219056896008617E5 /* Debug */,
+				849B3D4319056896008617E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B3D4419056896008617E5 /* Build configuration list for PBXNativeTarget "CryptoNotesBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B3D4519056896008617E5 /* Debug */,
+				849B3D4619056896008617E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849B3D1619056896008617E5 /* Project object */;
+}
